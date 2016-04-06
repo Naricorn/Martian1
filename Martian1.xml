@@ -143,12 +143,12 @@
                                                 <statement name="DO">
                                                   <block type="movement_setmotors" id="35" inline="true">
                                                     <value name="BOTHMOVLEFT">
-                                                      <block type="math_number" id="39">
+                                                      <block type="math_number" id="36">
                                                         <field name="NUM">100</field>
                                                       </block>
                                                     </value>
                                                     <value name="BOTHMOVRIGHT">
-                                                      <block type="math_number" id="40">
+                                                      <block type="math_number" id="37">
                                                         <field name="NUM">95</field>
                                                       </block>
                                                     </value>
@@ -157,9 +157,9 @@
                                               </block>
                                             </statement>
                                             <next>
-                                              <block type="robot_delay" id="36" inline="true">
+                                              <block type="robot_delay" id="38" inline="true">
                                                 <value name="DELAY">
-                                                  <block type="math_number" id="37">
+                                                  <block type="math_number" id="39">
                                                     <field name="NUM">100</field>
                                                   </block>
                                                 </value>
@@ -168,7 +168,7 @@
                                           </block>
                                         </statement>
                                         <next>
-                                          <block type="movement_stop" id="38"></block>
+                                          <block type="movement_stop" id="40"></block>
                                         </next>
                                       </block>
                                     </next>
