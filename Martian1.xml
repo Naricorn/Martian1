@@ -72,21 +72,21 @@
                                           </block>
                                         </value>
                                         <statement name="DO">
-                                          <block type="movement_setmotors" id="32" inline="true">
+                                          <block type="movement_setmotors" id="20" inline="true">
                                             <value name="BOTHMOVLEFT">
-                                              <block type="math_number" id="39">
+                                              <block type="math_number" id="21">
                                                 <field name="NUM">100</field>
                                               </block>
                                             </value>
                                             <value name="BOTHMOVRIGHT">
-                                              <block type="math_number" id="40">
+                                              <block type="math_number" id="22">
                                                 <field name="NUM">95</field>
                                               </block>
                                             </value>
                                           </block>
                                         </statement>
                                         <next>
-                                          <block type="movement_stop" id="22"></block>
+                                          <block type="movement_stop" id="23"></block>
                                         </next>
                                       </block>
                                     </next>
